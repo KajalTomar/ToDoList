@@ -1,0 +1,77 @@
+body{
+  /* Photo by Ashley Edwards form Unsplash. @westwardwayphotography */
+  background-image: url('backgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 140px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+h1{
+  margin-bottom: 0px;
+
+}
+p{
+  margin: 0px;
+
+}
+
+div1{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-color: grey;
+}
+
+#userinput{
+  border: none;
+  border-bottom: solid;
+  border-bottom-width: 0.2px;
+  background: none;
+  width: 100%; 
+  padding: 2px;
+}
+
+#userinput:focus{
+  outline:none;
+  font-family: 'Homemade Apple', cursive;
+}
+
+::placeholder{
+   font-family: 'Homemade Apple', cursive;
+}
+
+
+#enter{
+  padding: 5px;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(181, 180, 178, 0.5);
+}
+
+#enter:hover{
+ background-color: rgb(181, 180, 178);
+}
+
+.listItem{
+  list-style-type: none;
+}
+
+.deleteBtn{
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 0.5px;
+  background: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
